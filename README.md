@@ -1,29 +1,3 @@
-# yoan
+Vue js merupakan salah satu framework yang banyak digunakan. Jika anda telah terbiasa dengan menggunakan angular js, maka untuk melakukan migrasi ke vue js tidak lah terlalu susah karena mereka mempunyai kemiripan di bagian sintak, hanya saja angular js memiliki development stack yang lebih rumit dibandingkan dengan vue js.  Vue js juga menggunakan fitur data binding sama seperti angular js. Jika di angular js kita menggunakan fungsi controller, maka di vue js kita akan menggunakan pendekatan dom yaitu kita akan menggunakan id, name atau class dari suatu component html. Vue js juga memiliki component routing yaitu vue-router. Selain itu, integrasi ke dalam proyek yang menggunakan pustaka JavaScript lainnya mudah dilakukan dengan Vue karena dirancang untuk diadopsi secara bertahap. Vue juga bisa berfungsi sebagai kerangka kerja aplikasi web yang mampu menjalankan aplikasi single-page yang canggih.
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Sebelumnua saya sudah membuat form yang berisi pertanyaan pertanyaan berbasis web menggunakan bahasa Vue. Sebelum mulai mengerjakan soal, ada sebuah textbox yang disediakan untuk mengisi nama yang selanjutnya nama yang di isi akan muncul di atas. Textbox tersebut menggunakan 'input v-model'. Setelah itu, terdapat tiga soal pilihan ganda yang harus Anda isi. Pilihan jawaban disini menggunakan 'radio'. Anda dapat mengisi soal tersebut dengan meng-klik jawaban yang menurut anda tepat. Ketika jawaban yang dipilih benar, maka nilai akan bertambah 1 dan seterusnya. Jika jawaban salah, maka nilai tidak akan bertambah. Jika sudah selesain mengisi, untuk melihat jumlah nilai, Anda cukup menekan tombol dengan tulisan "Click me!" lalu nilai anda akan muncul.
